@@ -175,7 +175,7 @@ function Home() {
           <img src="/images/preto.png" alt="logo" className={classes.logo} />  
          
           {/* BARRA DE PESQUISA */}
-            <Box class='searchBar'>
+            <Box sx={{ marginLeft:"120px", width:'70%', display: "flex", justifyContent: "center", allignItems: "center"}}>
             <Paper
       component="form"
       sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 600 }}>
